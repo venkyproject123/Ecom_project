@@ -18,7 +18,7 @@ public class ProductController {
 
     @RequestMapping("/")
     public String greet(){
-        return "Hello World!";
+        return "Hello World!,my name is venkatesh";
     }
     @GetMapping("/products")
     public List<Product> getAllProducts(){
